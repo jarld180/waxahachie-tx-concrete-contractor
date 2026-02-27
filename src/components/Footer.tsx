@@ -40,14 +40,15 @@ const Footer: React.FC = () => {
               <li><a href="/#contact" className="text-black hover:text-black transition-colors font-medium">Contact</a></li>
             </ul>
           </div>
-          <div>
+                    <div>
             <h4 className="font-bold text-lg mb-8 uppercase tracking-widest text-black">Service Areas</h4>
             <ul className="space-y-4">
-              <li><span className="text-black font-medium">Cedar Hill, TX</span></li>
-              <li><span className="text-black font-medium">DeSoto, TX</span></li>
-              <li><span className="text-black font-medium">Duncanville, TX</span></li>
-              <li><span className="text-black font-medium">Lancaster, TX</span></li>
-              <li><span className="text-black font-medium">Midlothian, TX</span></li>
+              <li><Link to="/cedar-hill" className="text-black hover:text-black transition-colors font-medium">Cedar Hill, TX</Link></li>
+              <li><Link to="/desoto" className="text-black hover:text-black transition-colors font-medium">DeSoto, TX</Link></li>
+              <li><Link to="/duncanville" className="text-black hover:text-black transition-colors font-medium">Duncanville, TX</Link></li>
+              <li><Link to="/lancaster" className="text-black hover:text-black transition-colors font-medium">Lancaster, TX</Link></li>
+              <li><Link to="/midlothian" className="text-black hover:text-black transition-colors font-medium">Midlothian, TX</Link></li>
+              <li><Link to="/" className="text-black hover:text-black transition-colors font-medium">Waxahachie, TX</Link></li>
             </ul>
           </div>
         </div>
